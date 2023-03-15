@@ -1,0 +1,67 @@
+.dialogbox-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.dialogbox {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.dialogbox-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialogbox-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dialogbox-tab {
+    width: 200px;
+    height: 200px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dialogbox-tab h3 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.dialogbox-tab p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.dialogbox-tab button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.dialogbox-tab button:hover {
+    background-color: #f5f5f5;
+}

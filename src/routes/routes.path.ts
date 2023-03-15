@@ -1,5 +1,5 @@
 const pathRoutes = {
     home: '/',
-    simulator: '/simulator'
+    simulator: '/simulator:id',
 }
 export default pathRoutes;

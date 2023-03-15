@@ -1,10 +1,11 @@
 import React from "react";
+import { DialogBox } from "../../components";
 
 const Root = () => {
 
     return (
         <div className="root-container">
-            <h1>Root</h1>
+            <DialogBox />
         </div>
     );
 }
